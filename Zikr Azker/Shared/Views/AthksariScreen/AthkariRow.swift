@@ -9,51 +9,63 @@ import SwiftUI
 
 struct AthkariRow: View {
     var athkari:Athkari
+    var deleteAction: ((_ athkari: Athkari) -> Void)
+    @State var selectedColor:Color  = secondry600
     var body: some View {
+    ZStack{
+        RoundedRectangle(cornerRadius: 25)
+          //.listRowBackground(Color(hex: 0xFFFFFF, alpha: 0.0))
+          .fill(Color(hex: 0xFFFFFF, alpha: 0.1))
+          .frame(width: 330, height: 100)
         HStack{
             VStack(alignment:.leading , spacing:0){
+                ColorPicker( "", selection: $selectedColor)
+                    .labelsHidden()
+                    .padding()
+//                   .offset(x: -165, y: 0)
+
                 Button(action: {
-                    
-                }) {
-                Text("x")
-                .frame(width: 30, height: 30 , alignment: .center)
-                
-                .background(.blue)
-                .foregroundColor(.white)
-                }
+                    deleteAction(athkari)
+                }, label: {
+                    Image("cancel")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fill)
+                })
+                .buttonStyle(PlainButtonStyle())
                 .cornerRadius(15)
-                .padding()
-                
-                Button(action: {
-                    
-                }) {
-                Text("x")
-                .frame(width: 30, height: 30 , alignment: .center)
-                
-                .background(.blue)
-                .foregroundColor(.white)
-                }
-                .cornerRadius(15)
+                .buttonBorderShape(.roundedRectangle(radius: 15))
+                .frame(width: 28, height: 28 , alignment: .center)
                 .padding()
             }
             Spacer()
-            Text(" \(athkari.name) ")
+  //          athkari.name.map(Text.init)
+   //             .font(.subheadline)
+            Text("  " + athkari.name! + "  ")
                 .font(.subheadline)
                 .bold()
                 .frame(height: 30, alignment: .center)
-                .background(Color(hex: athkari.colorHEX))
+                .background(selectedColor)
                 .foregroundColor(.white)
                 .cornerRadius(15)
-                .padding()
+                .padding(.all)
             
         }
-        .frame( height: 120, alignment: .leading)
-        .preferredColorScheme(.dark)
+        
+        .frame(height: 100, alignment: .leading)
+    }
+    //    .preferredColorScheme(.dark)
+    }
+}
+/*
+struct AthkariRow_Previews: PreviewProvider {
+   // var a = Athkari()
+    
+    static var previews: some View {
+        AthkariRow(athkari: a, deleteAction: d)
     }
 }
 
-struct AthkariRow_Previews: PreviewProvider {
-    static var previews: some View {
-        AthkariRow(athkari: athkaris[0])
-    }
+func d(a:Athkari){
+    
 }
+*/

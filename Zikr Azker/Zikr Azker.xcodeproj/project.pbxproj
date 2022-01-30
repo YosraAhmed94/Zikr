@@ -10,44 +10,59 @@
 		29137BDD276F8EE8005646A1 /* AthkerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29137BDC276F8EE8005646A1 /* AthkerList.swift */; };
 		29137BDE276F8EE8005646A1 /* AthkerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29137BDC276F8EE8005646A1 /* AthkerList.swift */; };
 		29137BE0276F98FF005646A1 /* AzkariList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29137BDF276F98FF005646A1 /* AzkariList.swift */; };
-		29137BE1276F98FF005646A1 /* AzkariList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29137BDF276F98FF005646A1 /* AzkariList.swift */; };
+		29149BC1279A010A00AD900C /* ChannelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29149BC0279A010A00AD900C /* ChannelList.swift */; };
+		2916CFF92797159400C298F1 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916CFF82797159400C298F1 /* NetworkHelper.swift */; };
 		29177615277086FB005B949F /* AthkersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29177614277086FB005B949F /* AthkersData.swift */; };
 		29177616277086FB005B949F /* AthkersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29177614277086FB005B949F /* AthkersData.swift */; };
 		2917761C2770F8BB005B949F /* ColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2917761B2770F8BB005B949F /* ColorExtention.swift */; };
 		2917761D2770F8BB005B949F /* ColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2917761B2770F8BB005B949F /* ColorExtention.swift */; };
 		291776202770F95E005B949F /* AthkariRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2917761F2770F95E005B949F /* AthkariRow.swift */; };
-		291776212770F95E005B949F /* AthkariRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2917761F2770F95E005B949F /* AthkariRow.swift */; };
 		291776232770FE31005B949F /* Athzari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291776222770FE31005B949F /* Athzari.swift */; };
 		291776242770FE31005B949F /* Athzari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291776222770FE31005B949F /* Athzari.swift */; };
 		291776262770FED8005B949F /* AthkarisData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291776252770FED8005B949F /* AthkarisData.swift */; };
 		291776272770FED8005B949F /* AthkarisData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291776252770FED8005B949F /* AthkarisData.swift */; };
+		291CDB95277F62E90087DB68 /* AthkerReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CDB94277F62E90087DB68 /* AthkerReminder.swift */; };
+		292A463D2782383800882B24 /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292A463C2782383800882B24 /* FloatingActionButton.swift */; };
+		292A463F2782479D00882B24 /* AddAthkari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292A463E2782479D00882B24 /* AddAthkari.swift */; };
 		293AF18D276D1B1A00E7D6FA /* AthkerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293AF18C276D1B1A00E7D6FA /* AthkerRow.swift */; };
 		293AF18E276D1B1A00E7D6FA /* AthkerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293AF18C276D1B1A00E7D6FA /* AthkerRow.swift */; };
+		294153022796045F00CF4EA4 /* AthkerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294153012796045F00CF4EA4 /* AthkerDetails.swift */; };
+		29445B4B2780D22E00DEAEEF /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29445B4A2780D22E00DEAEEF /* NotificationManager.swift */; };
+		29445B4E2780D3D600DEAEEF /* NotificationTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29445B4D2780D3D600DEAEEF /* NotificationTask.swift */; };
+		2946024D278B084C00BFA864 /* Zikr Azker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2946024B278B084C00BFA864 /* Zikr Azker.xcdatamodeld */; };
+		2947FCB927980F2200FCD6FF /* AthkarDetailsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2947FCB827980F2200FCD6FF /* AthkarDetailsRow.swift */; };
 		299883F22768A978001790D6 /* Zikr_AzkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299883E22768A976001790D6 /* Zikr_AzkerApp.swift */; };
-		299883F32768A978001790D6 /* Zikr_AzkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299883E22768A976001790D6 /* Zikr_AzkerApp.swift */; };
 		299883F42768A978001790D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299883E32768A976001790D6 /* ContentView.swift */; };
 		299883F52768A978001790D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299883E32768A976001790D6 /* ContentView.swift */; };
 		299883F62768A978001790D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299883E42768A978001790D6 /* Assets.xcassets */; };
-		299883F72768A978001790D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299883E42768A978001790D6 /* Assets.xcassets */; };
 		29E30009276E5EE100DBA43D /* Athker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E30008276E5EE100DBA43D /* Athker.swift */; };
-		29E3000A276E5EE100DBA43D /* Athker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E30008276E5EE100DBA43D /* Athker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29137BDC276F8EE8005646A1 /* AthkerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthkerList.swift; sourceTree = "<group>"; };
 		29137BDF276F98FF005646A1 /* AzkariList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkariList.swift; sourceTree = "<group>"; };
+		29149BC0279A010A00AD900C /* ChannelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelList.swift; sourceTree = "<group>"; };
+		2916CFF82797159400C298F1 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		29177614277086FB005B949F /* AthkersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthkersData.swift; sourceTree = "<group>"; };
 		2917761B2770F8BB005B949F /* ColorExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtention.swift; sourceTree = "<group>"; };
 		2917761F2770F95E005B949F /* AthkariRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthkariRow.swift; sourceTree = "<group>"; };
 		291776222770FE31005B949F /* Athzari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athzari.swift; sourceTree = "<group>"; };
 		291776252770FED8005B949F /* AthkarisData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthkarisData.swift; sourceTree = "<group>"; };
+		291CDB94277F62E90087DB68 /* AthkerReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthkerReminder.swift; sourceTree = "<group>"; };
+		292A463C2782383800882B24 /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		292A463E2782479D00882B24 /* AddAthkari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAthkari.swift; sourceTree = "<group>"; };
 		293AF18C276D1B1A00E7D6FA /* AthkerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthkerRow.swift; sourceTree = "<group>"; };
+		294153012796045F00CF4EA4 /* AthkerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthkerDetails.swift; sourceTree = "<group>"; };
+		29445B4A2780D22E00DEAEEF /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		29445B4D2780D3D600DEAEEF /* NotificationTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTask.swift; sourceTree = "<group>"; };
+		2946024C278B084C00BFA864 /* Zikr Azker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Zikr Azker.xcdatamodel"; sourceTree = "<group>"; };
+		2947FCB7279803C200FCD6FF /* Zikr-Azker--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Zikr-Azker--iOS--Info.plist"; sourceTree = "<group>"; };
+		2947FCB827980F2200FCD6FF /* AthkarDetailsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthkarDetailsRow.swift; sourceTree = "<group>"; };
 		299883E22768A976001790D6 /* Zikr_AzkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zikr_AzkerApp.swift; sourceTree = "<group>"; };
 		299883E32768A976001790D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		299883E42768A978001790D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		299883E92768A978001790D6 /* Zikr Azker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zikr Azker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		299883EF2768A978001790D6 /* Zikr Azker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zikr Azker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		299883F12768A978001790D6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		29E30008276E5EE100DBA43D /* Athker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29149BBF279A00D300AD900C /* ChannelScreen */ = {
+			isa = PBXGroup;
+			children = (
+				29149BC0279A010A00AD900C /* ChannelList.swift */,
+			);
+			path = ChannelScreen;
+			sourceTree = "<group>";
+		};
 		291776172770F7F9005B949F /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,7 @@
 			children = (
 				29177614277086FB005B949F /* AthkersData.swift */,
 				291776252770FED8005B949F /* AthkarisData.swift */,
+				2916CFF82797159400C298F1 /* NetworkHelper.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -90,6 +114,7 @@
 		291776192770F872005B949F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				29149BBF279A00D300AD900C /* ChannelScreen */,
 				2917761E2770F930005B949F /* AthksariScreen */,
 				2917761A2770F880005B949F /* AthkerScreen */,
 			);
@@ -101,6 +126,9 @@
 			children = (
 				293AF18C276D1B1A00E7D6FA /* AthkerRow.swift */,
 				29137BDC276F8EE8005646A1 /* AthkerList.swift */,
+				291CDB94277F62E90087DB68 /* AthkerReminder.swift */,
+				294153012796045F00CF4EA4 /* AthkerDetails.swift */,
+				2947FCB827980F2200FCD6FF /* AthkarDetailsRow.swift */,
 			);
 			path = AthkerScreen;
 			sourceTree = "<group>";
@@ -110,6 +138,8 @@
 			children = (
 				29137BDF276F98FF005646A1 /* AzkariList.swift */,
 				2917761F2770F95E005B949F /* AthkariRow.swift */,
+				292A463C2782383800882B24 /* FloatingActionButton.swift */,
+				292A463E2782479D00882B24 /* AddAthkari.swift */,
 			);
 			path = AthksariScreen;
 			sourceTree = "<group>";
@@ -117,8 +147,8 @@
 		299883DC2768A976001790D6 = {
 			isa = PBXGroup;
 			children = (
+				2947FCB7279803C200FCD6FF /* Zikr-Azker--iOS--Info.plist */,
 				299883E12768A976001790D6 /* Shared */,
-				299883F02768A978001790D6 /* macOS */,
 				299883EA2768A978001790D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,6 +163,9 @@
 				299883E32768A976001790D6 /* ContentView.swift */,
 				299883E42768A978001790D6 /* Assets.xcassets */,
 				2917761B2770F8BB005B949F /* ColorExtention.swift */,
+				29445B4A2780D22E00DEAEEF /* NotificationManager.swift */,
+				29445B4D2780D3D600DEAEEF /* NotificationTask.swift */,
+				2946024B278B084C00BFA864 /* Zikr Azker.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -144,14 +177,6 @@
 				299883EF2768A978001790D6 /* Zikr Azker.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		299883F02768A978001790D6 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				299883F12768A978001790D6 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +224,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					299883E82768A978001790D6 = {
 						CreatedOnToolsVersion = 13.1;
@@ -241,7 +266,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299883F72768A978001790D6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +276,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2946024D278B084C00BFA864 /* Zikr Azker.xcdatamodeld in Sources */,
+				294153022796045F00CF4EA4 /* AthkerDetails.swift in Sources */,
+				29445B4E2780D3D600DEAEEF /* NotificationTask.swift in Sources */,
 				29E30009276E5EE100DBA43D /* Athker.swift in Sources */,
+				292A463D2782383800882B24 /* FloatingActionButton.swift in Sources */,
+				29149BC1279A010A00AD900C /* ChannelList.swift in Sources */,
+				292A463F2782479D00882B24 /* AddAthkari.swift in Sources */,
+				2916CFF92797159400C298F1 /* NetworkHelper.swift in Sources */,
+				291CDB95277F62E90087DB68 /* AthkerReminder.swift in Sources */,
 				29137BE0276F98FF005646A1 /* AzkariList.swift in Sources */,
+				2947FCB927980F2200FCD6FF /* AthkarDetailsRow.swift in Sources */,
+				29445B4B2780D22E00DEAEEF /* NotificationManager.swift in Sources */,
 				291776202770F95E005B949F /* AthkariRow.swift in Sources */,
 				293AF18D276D1B1A00E7D6FA /* AthkerRow.swift in Sources */,
 				29177615277086FB005B949F /* AthkersData.swift in Sources */,
@@ -270,15 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E3000A276E5EE100DBA43D /* Athker.swift in Sources */,
-				29137BE1276F98FF005646A1 /* AzkariList.swift in Sources */,
-				291776212770F95E005B949F /* AthkariRow.swift in Sources */,
 				293AF18E276D1B1A00E7D6FA /* AthkerRow.swift in Sources */,
 				29177616277086FB005B949F /* AthkersData.swift in Sources */,
 				2917761D2770F8BB005B949F /* ColorExtention.swift in Sources */,
 				299883F52768A978001790D6 /* ContentView.swift in Sources */,
 				291776242770FE31005B949F /* Athzari.swift in Sources */,
-				299883F32768A978001790D6 /* Zikr_AzkerApp.swift in Sources */,
 				29137BDE276F8EE8005646A1 /* AthkerList.swift in Sources */,
 				291776272770FED8005B949F /* AthkarisData.swift in Sources */,
 			);
@@ -338,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -393,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -412,6 +442,7 @@
 				DEVELOPMENT_TEAM = FV7P3U9Z3A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zikr-Azker--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,6 +473,7 @@
 				DEVELOPMENT_TEAM = FV7P3U9Z3A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zikr-Azker--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,6 +501,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -496,6 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -548,6 +582,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2946024B278B084C00BFA864 /* Zikr Azker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2946024C278B084C00BFA864 /* Zikr Azker.xcdatamodel */,
+			);
+			currentVersion = 2946024C278B084C00BFA864 /* Zikr Azker.xcdatamodel */;
+			path = "Zikr Azker.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 299883DD2768A976001790D6 /* Project object */;
 }

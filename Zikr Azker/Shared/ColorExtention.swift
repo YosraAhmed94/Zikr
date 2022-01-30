@@ -17,4 +17,11 @@ extension Color {
             opacity: alpha
             )
     }
+    static func colorArray(hexArray: [UInt]) -> [Color]{
+        var colorArray:[Color]=[]
+        hexArray.forEach({hexColor in
+            colorArray.append(Color(hex: hexColor))
+        })
+        return colorArray
+    }
 }
