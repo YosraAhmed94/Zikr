@@ -7,3 +7,8 @@ https://www.islamicity.org/forum/forum_posts.asp?TID=31174&title=73-benefits-of-
 ![Simulator Screen Shot - iPhone 13 - 2022-01-25 at 19 20 23](https://user-images.githubusercontent.com/95105664/151694274-afcfa9b1-407f-4e87-8f7f-c86e57e57d0a.png)
 ![Simulator Screen Shot - iPhone 13 - 2022-01-25 at 16 54 18](https://user-images.githubusercontent.com/95105664/151694282-20866e3e-7ce8-4dd3-9817-31cfbe![Simulator Screen Shot - iPhone 13 - 2022-01-25 at 19 17 39](https://user-images.githubusercontent.com/95105664/151694283-33e4a4e2-4e58-4384-a33b-9c8670ff70c9.png)
 3e8a31.png)
+
+Minimal Adhan
+
+ 
+
